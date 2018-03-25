@@ -1,0 +1,20 @@
+<div class="container mt-sm-3">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6 card">
+      <div class="card-body">
+        <h2 class="card-title text-dark">Welcome to Artists Listing</h2>
+        <p class="card-text">Please use the links below to Navigate.</p>
+        <a ng-href="#!/list" class="btn btn-primary">Artist Listing</a>
+        <input type="text" class="form-control" 
+        placeholder="5 or 9 Digit Zip Code" aria-label="Zipcode" 
+        zipcodevalidate
+        data-ng-model="zipvalue" />
+        <div>{{zipvalue | zipcode}}</div>
+      </div>
+      <!-- card-body -->
+    </div>
+    <!-- col-12 -->
+  </div>
+  <!-- row -->
+</div>
+<!-- col-container -->
